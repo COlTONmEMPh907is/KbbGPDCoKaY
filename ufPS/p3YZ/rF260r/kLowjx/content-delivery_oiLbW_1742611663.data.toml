@@ -1,0 +1,29 @@
+[package]
+name = "edgedns"
+version = "0.3.0"
+authors = ["Frank Denis <github@pureftpd.org>"]
+
+[features]
+webservice = ["libedgedns/webservice"]
+nightly = ["libedgedns/nightly", "clap/nightly", "log/nightly"]
+clippy = ["libedgedns/clippy"]
+
+default = ["nightly", "webservice"]
+
+[dev-dependencies]
+nix = "*"
+regex = "*"
+tempfile = "*"
+
+[dependencies.libedgedns]
+path = "src/libedgedns"
+
+[dependencies]
+clap = "*"
+env_logger = "*"
+log = "*"
+
+[profile.release]
+lto = true
+panic = "abort"
+opt-level = 3
