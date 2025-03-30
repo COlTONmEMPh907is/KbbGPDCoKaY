@@ -10,6 +10,5 @@ Please ensure your pull request adheres to the following guidelines:
 - Use the following format: `[List Name](link)`
 - Link additions should be added to the bottom of the relevant category.
 - New categories or improvements to the existing categorization are welcome.
-- Check your spelling and grammar.
 - Make sure your text editor is set to remove trailing whitespace.
 Thank you for your contributions!
