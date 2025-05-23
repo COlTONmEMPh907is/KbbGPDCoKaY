@@ -96,7 +96,6 @@ project:
 
    ```bash
    git pull [--rebase] upstream master
-   ```
 
 6. Push your topic branch up to your fork:
 
