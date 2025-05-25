@@ -30,7 +30,6 @@ Example:
 > Short and descriptive example bug report title
 >
 > A summary of the issue and the OS environment in which it occurs. If
-> suitable, include the steps required to reproduce the bug.
 >
 > 1. This is the first step
 > 2. This is the second step
