@@ -1,1 +1,0 @@
-"Ethicial Hacking from Scratch" 
